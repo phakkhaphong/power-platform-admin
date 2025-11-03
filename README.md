@@ -12,43 +12,39 @@
 
 แต่ละ Module แยกอยู่ในโฟลเดอร์ของตนเอง โดยแยกเนื้อหาทฤษฎีและแบบฝึกหัดเป็นไฟล์แยกกัน:
 
-### [Module 1: Foundational Governance & Admin Center](./Module01/)
-- [เนื้อหาทฤษฎี](./Module01/Content.md) - Licensing, Admin Roles, PPAC Navigation
-- [แบบฝึกหัดปฏิบัติ](./Module01/Exercises.md) - 3 แบบฝึกหัด
+### [Module 1: Foundational Governance & Admin Center](./Module01-Foundational-Governance/)
+- [เนื้อหาทฤษฎี (README.md)](./Module01-Foundational-Governance/README.md) - Licensing, Admin Roles, PPAC Navigation
+- [แบบฝึกหัดปฏิบัติ](./Module01-Foundational-Governance/Exercises.md) - 3 แบบฝึกหัด
 
-### [Module 2: Designing a Scalable Environment Architecture](./Module02/)
-- [เนื้อหาทฤษฎี](./Module02/Content.md) - Environment Strategy, Default Environment, Security
-- [แบบฝึกหัดปฏิบัติ](./Module02/Exercises.md) - 3 แบบฝึกหัด
+### [Module 2: Designing a Scalable Environment Architecture](./Module02-Environment-Architecture/)
+- [เนื้อหาทฤษฎี (README.md)](./Module02-Environment-Architecture/README.md) - Environment Strategy, Default Environment, Security
+- [แบบฝึกหัดปฏิบัติ](./Module02-Environment-Architecture/Exercises.md) - 3 แบบฝึกหัด
 
-### [Module 3: Solutions & Application Lifecycle Management](./Module03/)
-- [เนื้อหาทฤษฎี](./Module03/Content.md) - Solutions, Managed vs Unmanaged, Deployment
-- [แบบฝึกหัดปฏิบัติ](./Module03/Exercises.md) - 3 แบบฝึกหัด
+### [Module 3: Solutions & Application Lifecycle Management](./Module03-Solutions-ALM/)
+- [เนื้อหาทฤษฎี (README.md)](./Module03-Solutions-ALM/README.md) - Solutions, Managed vs Unmanaged, Deployment
+- [แบบฝึกหัดปฏิบัติ](./Module03-Solutions-ALM/Exercises.md) - 3 แบบฝึกหัด
 
-### [Module 4: Implementing a Robust Security Framework](./Module04/)
-- [เนื้อหาทฤษฎี](./Module04/Content.md) - 4-Layer Security Model, Dataverse Security, Tenant Settings
-- [แบบฝึกหัดปฏิบัติ](./Module04/Exercises.md) - 3 แบบฝึกหัด
+### [Module 4: Implementing a Robust Security Framework](./Module04-Security-Framework/)
+- [เนื้อหาทฤษฎี (README.md)](./Module04-Security-Framework/README.md) - 4-Layer Security Model, Dataverse Security, Tenant Settings
+- [แบบฝึกหัดปฏิบัติ](./Module04-Security-Framework/Exercises.md) - 3 แบบฝึกหัด
 
-### [Module 5: Preventing Data Leaks with DLP Policies](./Module05/)
-- [เนื้อหาทฤษฎี](./Module05/Content.md) - DLP Policy Mechanism, Multi-layered Strategy
-- [แบบฝึกหัดปฏิบัติ](./Module05/Exercises.md) - 3 แบบฝึกหัด
+### [Module 5: Preventing Data Leaks with DLP Policies](./Module05-DLP-Policies/)
+- [เนื้อหาทฤษฎี (README.md)](./Module05-DLP-Policies/README.md) - DLP Policy Mechanism, Multi-layered Strategy
+- [แบบฝึกหัดปฏิบัติ](./Module05-DLP-Policies/Exercises.md) - 3 แบบฝึกหัด
 
-### [Module 6: Proactive Monitoring & Tenant-Wide Analytics](./Module06/)
-- [เนื้อหาทฤษฎี](./Module06/Content.md) - PPAC Analytics, Audit Logs, Application Insights
-- [แบบฝึกหัดปฏิบัติ](./Module06/Exercises.md) - 3 แบบฝึกหัด
+### [Module 6: Proactive Monitoring & Tenant-Wide Analytics](./Module06-Monitoring-Analytics/)
+- [เนื้อหาทฤษฎี (README.md)](./Module06-Monitoring-Analytics/README.md) - PPAC Analytics, Audit Logs, Application Insights
+- [แบบฝึกหัดปฏิบัติ](./Module06-Monitoring-Analytics/Exercises.md) - 3 แบบฝึกหัด
 
-### [Module 7: Advanced Governance: CoE Kit vs. Managed Environments](./Module07/)
-- [เนื้อหาทฤษฎี](./Module07/Content.md) - CoE Kit, Managed Environments, Strategic Comparison
-- [แบบฝึกหัดปฏิบัติ](./Module07/Exercises.md) - 3 แบบฝึกหัด
+### [Module 7: Advanced Governance: CoE Kit vs. Managed Environments](./Module07-Advanced-Governance/)
+- [เนื้อหาทฤษฎี (README.md)](./Module07-Advanced-Governance/README.md) - CoE Kit, Managed Environments, Strategic Comparison
+- [แบบฝึกหัดปฏิบัติ](./Module07-Advanced-Governance/Exercises.md) - 3 แบบฝึกหัด
 
 ## วิธีการใช้งานเอกสาร
 
 แต่ละโมดูลแยกเป็น:
-1. **Content.md** - เนื้อหาทฤษฎี อธิบายแนวคิดหลักและแนวปฏิบัติที่ดี พร้อมสรุป Module
+1. **README.md** - เนื้อหาทฤษฎี อธิบายแนวคิดหลักและแนวปฏิบัติที่ดี พร้อมสรุป Module (ใช้เป็น README ของแต่ละ Module)
 2. **Exercises.md** - แบบฝึกหัดปฏิบัติ (Practical Exercises) ขั้นตอนการปฏิบัติงานจริงพร้อมคำแนะนำ
-
-## ไฟล์เดิม
-
-ไฟล์ Module เดิม (Module01-Foundational-Governance.md ถึง Module07-Advanced-Governance.md) ยังคงอยู่เพื่ออ้างอิง สามารถลบได้เมื่อไม่จำเป็น
 
 ## ข้อกำหนดเบื้องต้น
 
