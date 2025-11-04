@@ -9,23 +9,35 @@
 
 **ขั้นตอน:**
 
-**ส่วนที่ 1: เข้าถึง Analytics Dashboard**
+**ส่วนที่ 1: เข้าถึง Monitor Dashboard**
 
 1. เข้าสู่ Power Platform Admin Center
-2. ไปที่ **Analytics** (เมนูด้านซ้าย)
+2. ไปที่ **Monitor** (เมนูด้านซ้าย)
 3. สำรวจส่วนต่างๆ:
 
+   **Overview:**
+   - ไปที่ **Monitor** > **Overview**
+   - ตรวจสอบ:
+     - Best practices section
+     - Power Apps section
+     - Power Automate section
+     - Overall health status
+
    **Usage Analytics:**
-   - ไปที่ **Analytics** > **Usage**
+   - ไปที่ **Monitor** > **Products** > **Power Apps**
    - ตรวจสอบ:
      - Apps: จำนวน Apps ที่ใช้งาน
-     - Flows: จำนวน Flows ที่ใช้งาน
      - Users: จำนวน Users ที่ใช้งาน
      - Usage Trends: กราฟแสดงแนวโน้ม
+   - ไปที่ **Monitor** > **Products** > **Power Automate**
+   - ตรวจสอบ:
+     - Flows: จำนวน Flows ที่ใช้งาน
+     - Flow runs: จำนวนครั้งที่รัน
+     - Success/Failure rates
 
    **Capacity Analytics:**
-   - ไปที่ **Analytics** > **Capacity**
-   - ตรวจสอบ:
+   - ไปที่ **Monitor** > **Overview**
+   - ตรวจสอบ Capacity information:
      - Database Capacity: การใช้งานฐานข้อมูล
      - File Capacity: การใช้งานไฟล์
      - Log Capacity: การใช้งาน Logs
@@ -34,7 +46,7 @@
 **ส่วนที่ 2: วิเคราะห์ Usage Data**
 
 1. **Apps Usage Analysis:**
-   - ไปที่ **Analytics** > **Usage** > **Apps**
+   - ไปที่ **Monitor** > **Products** > **Power Apps**
    - บันทึกข้อมูล:
      - Top 5 Apps by Usage
      - Apps ที่ไม่มีการใช้งาน (Orphaned Apps)
@@ -42,7 +54,7 @@
      - Active Users per App
 
 2. **Flows Usage Analysis:**
-   - ไปที่ **Analytics** > **Usage** > **Flows**
+   - ไปที่ **Monitor** > **Products** > **Power Automate**
    - บันทึกข้อมูล:
      - Top 5 Flows by Runs
      - Flows ที่ไม่มีการใช้งาน (Orphaned Flows)
@@ -50,7 +62,7 @@
      - Failed Runs
 
 3. **Users Analysis:**
-   - ไปที่ **Analytics** > **Usage** > **Users**
+   - ไปที่ **Monitor** > **Overview** หรือ **Monitor** > **Products** > **Power Apps**
    - บันทึกข้อมูล:
      - Top 5 Active Users
      - Users ที่ไม่ใช้งาน
@@ -58,11 +70,11 @@
 
 **ส่วนที่ 3: ระบุ Orphaned Resources**
 
-1. ไปที่ **Analytics** > **Resources**
+1. ไปที่ **Monitor** > **Overview** หรือ **Monitor** > **Products** > **Power Apps** และ **Monitor** > **Products** > **Power Automate**
 2. ตรวจสอบ Orphaned Resources:
-   - Apps ที่ไม่มีการใช้งาน (30+ วัน)
-   - Flows ที่ไม่มีการใช้งาน (30+ วัน)
-   - Connectors ที่ไม่มีการใช้งาน
+   - Apps ที่ไม่มีการใช้งาน (30+ วัน) - ดูจาก **Monitor** > **Products** > **Power Apps**
+   - Flows ที่ไม่มีการใช้งาน (30+ วัน) - ดูจาก **Monitor** > **Products** > **Power Automate**
+   - Connectors ที่ไม่มีการใช้งาน - ดูจาก **Monitor** > **Overview**
 
 3. สร้างรายการ "Orphaned Resources for Cleanup":
    - ชื่อ Resource
@@ -82,9 +94,14 @@
    - Recommendations
 
 **ผลลัพธ์ที่คาดหวัง:**
-- ความคุ้นเคยกับ Analytics Dashboards
+- ความคุ้นเคยกับ Monitor Dashboards ใน PPAC
 - รายงาน Analytics ที่มีประโยชน์
 - ความเข้าใจข้อมูลการใช้งาน
+
+**หมายเหตุ:**
+- PPAC ใช้เมนู **Monitor** แทน **Analytics** ในเวอร์ชันปัจจุบัน
+- ข้อมูล Analytics กระจายอยู่ในส่วนต่างๆ เช่น **Monitor** > **Overview**, **Monitor** > **Products** > **Power Apps**, และ **Monitor** > **Products** > **Power Automate**
+- ใช้ **Monitor** > **Alerts** และ **Monitor** > **Logs** สำหรับการตรวจสอบและวิเคราะห์เพิ่มเติม
 
 ---
 
