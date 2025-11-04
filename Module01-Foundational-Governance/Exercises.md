@@ -94,9 +94,11 @@
    - ระบุว่า Policies ใดเป็น Environment-specific
    
    **ส่วน Admin Settings:**
-   - ไปที่ Settings > Tenant Settings
-   - ตรวจสอบ Tenant Isolation Settings
-   - ตรวจสอบ Analytics Settings
+   - ไปที่ Settings > Tenant Settings (สำหรับ Analytics Settings และ Environment Creation)
+   - ตรวจสอบ Tenant Isolation Settings: ไปที่ **Settings** > **Security** > **Identity and Access** > **Tenant isolation**
+   - ตรวจสอบ Analytics Settings: ไปที่ **Settings** > **Tenant settings** > **Analytics**
+   
+   **หมายเหตุ:** ใน PPAC เวอร์ชันล่าสุด Tenant Isolation ได้ย้ายไปอยู่ที่ **Settings** > **Security** > **Identity and Access** แล้ว
 
 3. สร้างเอกสาร "PPAC Navigation Map" ที่มี:
    - ภาพหน้าจอของแต่ละส่วน

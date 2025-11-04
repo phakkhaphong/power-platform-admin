@@ -137,15 +137,17 @@
 1. เข้าสู่ Power Platform Admin Center
 2. ไปที่ **Settings** > **Tenant settings** (หรือ **Admin Settings**)
 
+**หมายเหตุ:** ใน PPAC เวอร์ชันล่าสุด การตั้งค่า Tenant Isolation และ Manage sharing ได้ย้ายไปอยู่ที่ **Settings** > **Security** > **Identity and Access** แล้ว
+
 3. **ตรวจสอบและตั้งค่า Tenant Isolation:**
-   - ไปที่ **Tenant isolation**
+   - ไปที่ **Settings** > **Security** > **Identity and Access** > **Tenant isolation**
    - ตรวจสอบ Settings:
      - **Allow connectors to share data across different environments**
      - **Block connections that send data to services outside the tenant**
    - บันทึกการตั้งค่าปัจจุบัน
 
-4. **ตั้งค่า Sharing:**
-   - ไปที่ **Sharing**
+4. **ตั้งค่า Manage sharing:**
+   - ไปที่ **Settings** > **Security** > **Identity and Access** > **Manage sharing**
    - ตรวจสอบ Settings:
      - **Allow makers to share canvas apps**
      - **Allow makers to share cloud flows**
@@ -163,11 +165,11 @@
      - **Allow makers to see tenant-level analytics**
 
 7. **ตั้งค่า Security:**
-   - ไปที่ **Security**
+   - ไปที่ **Settings** > **Security** > **Identity and Access** (หรือ **Settings** > **Tenant settings** > **Security**)
    - ตรวจสอบ Settings:
      - **Allow users to access Dataverse**
      - **Allow users to access Power Platform**
-     - **Enable Conditional Access**
+     - **Enable Conditional Access** (หมายเหตุ: Conditional Access มักจะตั้งค่าใน Microsoft Entra ID)
 
 8. **สร้างเอกสาร "Tenant Security Settings":**
    - บันทึกการตั้งค่าทั้งหมด
